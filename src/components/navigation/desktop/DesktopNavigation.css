@@ -1,0 +1,52 @@
+.desktopNavigationWrapper {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    background-color:#D8BD8A ;
+}
+
+.navLogo {
+  
+
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+    grid-column: 2/3;
+    padding: 4%;
+}
+
+ .shopButton, 
+ .galleryButton, 
+ .newsButton, 
+ .signInButton,
+ .authUserNavigation{
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    padding: 2%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-right: 100px;
+    }
+.shopButton {
+    grid-column: 9/10;
+}
+
+.galleryButton {
+
+}
+
+.newsButton {
+
+}
+.signInButton {
+    grid-column: 19/20;
+   
+    
+    }
+
+    .authUserNavigation {
+        grid-column: 19/20;
+
+    }
